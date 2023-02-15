@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="hi.gif" alt="Mão acenando" width="30px">
+  <img src="../../.github/hi.gif" alt="Mão acenando" width="30px">
   #boraCodar 06 - Cartão de Embarque
 </h1>
 <p align="center">🌐🚀 Resoluções e correções do desafios 06, um projeto de cartão de embarque.</p>
@@ -19,13 +19,12 @@
   </a>
 </p>
 
-
 ## 🚀 Tecnologias
 
-|            |                              |
-| ---------- | ---------------------------- |
-|    HTML    |   HyperText Markup Language  |
-|    CSS     |     Cascading Style Sheets   |
+| Tecnologia | Descrição                 |
+| ---------- | ------------------------- |
+| HTML       | HyperText Markup Language |
+| CSS        | Cascading Style Sheets    |
 
 ## ⚙ Executar
 

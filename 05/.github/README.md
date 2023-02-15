@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="hi.gif" alt="Mão acenando" width="30px">
+  <img src="../../.github/hi.gif" alt="Mão acenando" width="30px">
   #boraCodar 05 - Calculadora
 </h1>
 <p align="center">🌐🚀 resoluções e correções do desafios 05, um projeto de calculadora.</p>
@@ -19,14 +19,13 @@
   </a>
 </p>
 
-
 ## 🚀 Tecnologias
 
-|            |                              |
-| ---------- | ---------------------------- |
-|    HTML    |   HyperText Markup Language  |
-|    CSS     |     Cascading Style Sheets   |
-| JavaScript |   Linguagem de Programação   |
+| Tecnologia | Descrição                 |
+| ---------- | ------------------------- |
+| HTML       | HyperText Markup Language |
+| CSS        | Cascading Style Sheets    |
+| JavaScript | Linguagem de Programação  |
 
 ## ⚙ Executar
 

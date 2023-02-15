@@ -19,18 +19,17 @@
   </a>
 </p>
 
-
 ## 🚀 Tecnologias
 
 Utilizando a base da Web para aprimorar habilidades e consolidar conceitos fundamentais para o desenvolvimento web.
 
-<div align="center">
+<div align="left">
 
-|            |                              |
-| ---------- | ---------------------------- |
-|    HTML    |   HyperText Markup Language  |
-|    CSS     |     Cascading Style Sheets   |
-| JavaScript |   Linguagem de Programação   |
+| Tecnologia | Descrição                 |
+| ---------- | ------------------------- |
+| HTML       | HyperText Markup Language |
+| CSS        | Cascading Style Sheets    |
+| JavaScript | Linguagem de Programação  |
 
 </div>
 
