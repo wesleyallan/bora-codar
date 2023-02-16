@@ -9,55 +9,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/calculadora.ico" />
     <link type="text/css" rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/script.js" type="text/javascript" defer></script>
     <title>Calculadora</title>
   </head>
   <body>
     <div class="container-calc">
       <div class="calc-display">
-        <div class="calc">2 + 2</div>
+        <div id="calc" class="calc"></div>
         <div class="container-result">
           <img src="./assets/svgs/equals.svg" alt="Sinal de igual" />
-          <span class="result">4</span>
+          <span id="result" class="result"></span>
         </div>
       </div>
       <div class="calc-keyboard">
         <!--      Row     -->
-        <button class="button secondary">CE</button>
-        <button class="button">C</button>
-        <button class="button">
-          <img src="./assets/svgs/percent.svg" alt="Sinal de divisão"/>
+        <button id="cleanup" class="button secondary">CE</button>
+        <button id="backspace" class="button">C</button>
+        <button id="percent" class="button">
+          <img id="o%" src="./assets/svgs/percent.svg" alt="Sinal de Porcentagem"/>
         </button>
-        <button class="button tertiary">
+        <button id="o/" class="button tertiary">
           <img src="./assets/svgs/divide.svg" alt="Sinal de multiplicação"/>
         </button>
         <!--      Row     -->
-        <button class="button">7</button>
-        <button class="button">8</button>
-        <button class="button">9</button>
-        <button class="button tertiary">
-          <img src="./assets/svgs/mult.svg" alt="Sinal de subtração" />
+        <button id="n7" class="button">7</button>
+        <button id="n8" class="button">8</button>
+        <button id="n9" class="button">9</button>
+        <button id="o*" class="button tertiary">
+          <img src="./assets/svgs/mult.svg" alt="Sinal de Multipliação" />
         </button>
         <!--      Row     -->
-        <button class="button">4</button>
-        <button class="button">5</button>
-        <button class="button">6</button>
-        <button class="button tertiary">
+        <button id="n4" class="button">4</button>
+        <button id="n5" class="button">5</button>
+        <button id="n6" class="button">6</button>
+        <button id="o-" class="button tertiary">
           <img src="./assets/svgs/minus.svg" alt="Sinal de adição" />
         </button>
         <!--      Row     -->
-        <button class="button">1</button>
-        <button class="button">2</button>
-        <button class="button">3</button>
-        <button class="button tertiary">
+        <button id="n1" class="button">1</button>
+        <button id="n2" class="button">2</button>
+        <button id="n3" class="button">3</button>
+        <button id="o+" class="button tertiary">
           <img src="./assets/svgs/plus.svg" alt="Sinal de soma" />
         </button>
         <!--      Row     -->
-        <button class="button">
-          <img src="./assets/svgs/plusMinus.svg" alt="Trocar sinal positivo negativo" />
+        <button id="signed" class="button button-github">
+          <a href="https://github.com/wesleyallan" target="_blank">
+            <img src="./assets/svgs/github.svg" alt="Ícone Github" />
+          </a>
         </button>
-        <button class="button">0</button>
-        <button class="button">,</button>
-        <button class="button button-result">
+        <button id="n0" class="button">0</button>
+        <button id="comma" class="button">,</button>
+        <button id="execute" class="button button-result">
           <img src="./assets/svgs/result.svg" alt="Botão para resultado" />
         </button>
       </div>
