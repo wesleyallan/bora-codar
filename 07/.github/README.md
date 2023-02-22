@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Bora Codar](./boraCodar-07.png)
+https://user-images.githubusercontent.com/93749822/220527929-0124ba91-8949-43d9-9b54-c3be670ff9e2.mp4
 
 </div>
 
