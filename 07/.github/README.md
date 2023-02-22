@@ -24,8 +24,6 @@ https://user-images.githubusercontent.com/93749822/220527929-0124ba91-8949-43d9-
 - [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/07/resolucao/)
 - [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/07/correcao/)
 
-<br />
-
 ## 🚀 Tecnologias
 
 | Tecnologia | Descrição                  |
