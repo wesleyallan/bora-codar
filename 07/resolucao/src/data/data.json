@@ -1,0 +1,58 @@
+{
+  "blocos": [
+    {
+      "name": "O Python do vovô não sobe mais",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "São Paulo - SP",
+      "img": "./src/assets/images/card-1.jpg"
+    },
+    {
+      "name": "Todo mundo null",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "Florianópolis - SC",
+      "img": "./src/assets/images/card-2.jpg"
+    },
+    {
+      "name": "Hoje dou exception",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "Curitiba - PR",
+      "img": "./src/assets/images/card-3.jpg"
+    },
+    {
+      "name": "Manda Node",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "Salvador - BA",
+      "img": "./src/assets/images/card-4.jpg"
+    },
+    {
+      "name": "Só no back-end",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "São Paulo - SP",
+      "img": "./src/assets/images/card-5.jpg"
+    },
+    {
+      "name": "Esse anel não é de Ruby",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "São Paulo - SP",
+      "img": "./src/assets/images/card-6.jpg"
+    },
+    {
+      "name": "Pimenta no C# dos outros é refresco",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "Rio de Janeiro - RJ",
+      "img": "./src/assets/images/card-7.jpg"
+    },
+    {
+      "name": "EnCACHE aqui",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "Porto Alegre - RS",
+      "img": "./src/assets/images/card-8.jpg"
+    },
+    {
+      "name": "Não valho nada mas JAVA li",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+      "location": "São Paulo - SP",
+      "img": "./src/assets/images/card-9.jpg"
+    }
+  ]
+}
