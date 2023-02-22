@@ -19,6 +19,11 @@
   </a>
 </p>
 
+- ## [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/06/resolucao/)
+- ## [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/06/correcao/)
+
+<br />
+
 ## 🚀 Tecnologias
 
 | Tecnologia | Descrição                 |

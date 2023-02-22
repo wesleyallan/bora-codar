@@ -10,6 +10,8 @@ https://user-images.githubusercontent.com/93749822/220527929-0124ba91-8949-43d9-
 
 </div>
 
+<br />
+
 <p align="center">
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -18,6 +20,11 @@ https://user-images.githubusercontent.com/93749822/220527929-0124ba91-8949-43d9-
     <img alt="Twitter: Wesley_AllanS" src="https://img.shields.io/twitter/follow/Wesley_AllanS.svg?style=social" />
   </a>
 </p>
+
+- ## [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/07/resolucao/)
+- ## [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/07/correcao/)
+
+<br />
 
 ## 🚀 Tecnologias
 

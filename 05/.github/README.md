@@ -4,10 +4,6 @@
 </h1>
 <p align="center">🌐🚀 resoluções e correções do desafios 05, um projeto de calculadora.</p>
 
-
-
-
-
 <div align="center">
 
 https://user-images.githubusercontent.com/93749822/219269497-750540f6-cfdd-4d3f-929c-a53f8777483c.mp4
@@ -24,6 +20,11 @@ https://user-images.githubusercontent.com/93749822/219269497-750540f6-cfdd-4d3f-
     <img alt="Twitter: Wesley_AllanS" src="https://img.shields.io/twitter/follow/Wesley_AllanS.svg?style=social" />
   </a>
 </p>
+
+- ## [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/05/resolucao/)
+- ## [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/05/correcao/)
+
+<br />
 
 ## 🚀 Tecnologias
 
