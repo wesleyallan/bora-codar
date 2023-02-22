@@ -21,8 +21,8 @@ https://user-images.githubusercontent.com/93749822/219269497-750540f6-cfdd-4d3f-
   </a>
 </p>
 
-- ## [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/05/resolucao/)
-- ## [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/05/correcao/)
+- [✨ Deploy - Resolução](https://wesleyallan.github.io/bora-codar/05/resolucao/)
+- [✨ Deploy - Correção](https://wesleyallan.github.io/bora-codar/05/correcao/)
 
 <br />
 
