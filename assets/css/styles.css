@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-synthesis: none;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #ffffff;
+  --purple100: #c6adff;
+  --purple500: #643bbd;
+  --purple700: #363447;
+  --purple900: #292738;
+  --green: #81fbb8;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  background-color: var(--purple900);
+}
+
+body::-webkit-scrollbar,
+body::-webkit-scrollbar-corner {
+  background-color: var(--purple700);
+  width: 1.2rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--purple500);
+  border-radius: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: var(--white);
+}
+
+h1 > span {
+  color: var(--purple100);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+.card {
+  height: 32.6rem;
+  overflow: hidden;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--purple700);
+  transform: scale(1);
+  transition: all 0.2s ease;
+  box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 8px 52px rgba(0, 0, 0, 0.5);
+}
+
+.card > .container-content {
+  padding: 0 0.9rem;
+}
+
+.card > .container-content > h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  color: var(--green);
+}
+
+.card > .container-content > p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.card > .container-buttons {
+  padding: 1.1rem 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > .container-buttons > a {
+  width: 9.8rem;
+  height: 3.7rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--purple900);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card > .container-buttons > a:last-child {
+  width: 7.5rem;
+}
+
+.card > .container-buttons > a:hover {
+  background-color: var(--purple500);
+}
