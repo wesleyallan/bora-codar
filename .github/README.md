@@ -19,18 +19,14 @@
   </a>
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Todos Projetos
 
-Utilizando a base da Web para aprimorar habilidades e consolidar conceitos fundamentais para o desenvolvimento web.
+Você pode acessar uma web page contento todos os projetos com suas resoluções realizadas por mim, correções desenvolvidas juntamente com o professor, e o link do repositório. <strong>Basta clicar na imagem</strong>
 
-<div align="left">
-
-| Tecnologia | Descrição                 |
-| ---------- | ------------------------- |
-| HTML       | HyperText Markup Language |
-| CSS        | Cascading Style Sheets    |
-| JavaScript | Linguagem de Programação  |
-
+<div align="center">
+  <a href="https://wesleyallan.github.io/bora-codar" target="_blank">
+    <img src="./home-boraCodar.png" width="600px" />
+  </a>
 </div>
 
 ## ⚙ Executar
