@@ -51,17 +51,20 @@ const start = () => {
   };
 
   window.onload = () => {
-    const query = new URLSearchParams(window.location.search.substring(1));
-    const queryObject = {};
-    for (let [key, value] of query.entries()) {
-      queryObject[key] = value;
-    }
+    const query = new URLSearchParams(window.location.search);
 
-    if (Object.keys(queryObject).length === 0) {
-      render();
-      return;
-    }
-    render(queryObject.name, queryObject.location);
+    // const queryObject = {};
+    // for (let [key, value] of query.entries()) {
+    //   queryObject[key] = value;
+    // }
+
+    // if (Object.keys(queryObject).length === 0) {
+    //   render();
+    //   return;
+    // }
+    // render(queryObject.name, queryObject.location);
+
+    render(query.get("name") ?? "", query.get("location") ?? "all");
   };
 };
 
