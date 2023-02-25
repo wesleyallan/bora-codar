@@ -35,9 +35,10 @@
       </div>
       <form id="form" class="border-gray-200" method="GET">
         <fieldset class="bg-gray-500">
-          <label for="name">
-            <img src="./src/assets/svg/search.svg" alt="Ícone de pesquisa" />
+          <label for="name" class="sr-only">
+            Informe um nome para pesquisa
           </label>
+          <img src="./src/assets/svg/search.svg" alt="Ícone de pesquisa" />
           <input
             id="name"
             class="bg-gray-500"
@@ -47,13 +48,12 @@
           />
         </fieldset>
         <fieldset class="bg-gray-500">
-          <label for="city">
-            <img src="./src/assets/svg/locate.svg" alt="Ícone de localização" />
-          </label>
+          <label for="city" class="sr-only"> Selecione uma cidade </label>
+          <img src="./src/assets/svg/locate.svg" alt="Ícone de localização" />
           <select
             id="location"
-            class="bg-gray-500"
             name="location"
+            class="bg-gray-500"
             placeholder="Selecione uma cidade"
           >
             <option value="all">Todas as cidades</option>
