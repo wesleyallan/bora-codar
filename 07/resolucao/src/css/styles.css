@@ -135,7 +135,8 @@ form select {
   }
 }
 
-form select:hover {
+form select:hover,
+form select:focus {
   animation-name: chevronAnimate;
   animation-direction: alternate;
   animation-duration: 0.5s;
