@@ -66,8 +66,10 @@ h1 > span {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(30rem, 1fr));
+  display: flex;
+  max-width: 96rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -90,30 +92,34 @@ h1 > span {
   box-shadow: 6px 8px 52px rgba(0, 0, 0, 0.5);
 }
 
+.cards:has(.card:hover) .card:not(:hover) {
+  filter: opacity(0.5);
+}
+
 .card > .container-content {
-  padding: 0 0.9rem;
+  padding: 0 1.4rem;
 }
 
 .card > .container-content > h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   font-size: 2.4rem;
   color: var(--green);
 }
 
 .card > .container-content > p {
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--white);
 }
 
 .card > .container-buttons {
-  padding: 1.1rem 0.9rem;
+  padding: 1.5rem 1.4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .card > .container-buttons > a {
-  width: 9.8rem;
+  width: 13rem;
   height: 3.7rem;
   border-radius: 0.5rem;
   display: flex;
@@ -129,10 +135,23 @@ h1 > span {
   text-decoration: none;
 }
 
-.card > .container-buttons > a:last-child {
-  width: 7.5rem;
-}
-
 .card > .container-buttons > a:hover {
   background-color: var(--purple500);
+}
+
+@media (max-width: 95.9rem) {
+  .cards {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 37.8rem) {
+  h1 {
+    text-align: center;
+    width: 21rem;
+  }
+  header img {
+    margin-left: 1.7rem;
+    width: 6rem;
+  }
 }
