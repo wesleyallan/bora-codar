@@ -2,11 +2,19 @@
   <img src="hi.gif" alt="Mão acenando" width="30px">
   Bem Vindo ao Bora Codar
 </h1>
-<p align="center">🌐🚀 Este repositório foi criado com o objetivo de armazenar as resoluções e correções dos desafios semanais do #boraCodar, um projeto desenvolvido pela Rocketseat.</p>
+<p align="center">🌐🚀 Este projeto foi desenvolvido com o intuito de proporcionar uma Home page contendo todos os #boraCodar solucionados.</p>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-ferramentas">Ferramentas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-execução">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
 <div align="center">
 
-![Bora Codar](./readme-bora-codar.png)
+![Bora Codar](./home-boraCodar.png)
 
 </div>
 
@@ -19,19 +27,30 @@
   </a>
 </p>
 
-## 🚀 Todos Projetos
+## [✨ Deploy](https://wesleyallan.github.io/bora-codar)
 
-Você pode acessar uma web page contento todos os projetos com suas resoluções realizadas por mim, correções desenvolvidas juntamente com o professor, e o link do repositório. <strong>Basta clicar na imagem</strong>
+## 🚀 Tecnologias
+Tecnologias utilizadas no desenvolvimento no código do projeto.
 
-<div align="center">
-  <a href="https://wesleyallan.github.io/bora-codar" target="_blank">
-    <img src="./home-boraCodar.png" width="600px" />
-  </a>
-</div>
+- HTML
+- CSS
+- JavaScript
 
-## ⚙ Executar
+## 🔧 Ferramentas
+Ferramentas utilizadas para o desenvolvimento e ou manutenção do código do projeto.
 
-Para visualizar o resultado dos códigos, basta abrir o arquivo HTML no navegador ou iniciar um servidor simples usando de soluções como `http-server`.
+- Visual Studio Code
+- Git
+- Figma
+
+## ⚙ Execução
+
+Para visualizar o resultado do códigos, apos clonar o repositório basta abrir o arquivo HTML no navegador ou iniciar um servidor simples usando de soluções como `http-server`, `Live Server`, entre outros.
+
+```sh
+git clone https://github.com/wesleyallan/bora-codar
+cd calculator
+```
 
 ## 📑 Layout
 
