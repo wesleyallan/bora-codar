@@ -87,7 +87,8 @@ h1 > span {
   box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.25);
 }
 
-.card:hover {
+.card:hover,
+.card:focus {
   transform: scale(1.1);
   box-shadow: 6px 8px 52px rgba(0, 0, 0, 0.5);
 }
@@ -135,17 +136,18 @@ h1 > span {
   text-decoration: none;
 }
 
-.card > .container-buttons > a:hover {
+.card > .container-buttons > a:hover,
+.card > .container-buttons > a:focus {
   background-color: var(--purple500);
 }
 
-@media (max-width: 95.9rem) {
+@media (max-width: 959px) {
   .cards {
     justify-content: center;
   }
 }
 
-@media (max-width: 37.8rem) {
+@media (max-width: 390px) {
   h1 {
     text-align: center;
     width: 21rem;
