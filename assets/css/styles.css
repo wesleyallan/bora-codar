@@ -24,7 +24,6 @@
 
 body {
   min-height: 100vh;
-  max-width: 100vw;
   display: grid;
   place-items: center;
   font-size: 1.6rem;
@@ -43,6 +42,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container {
+  width: 100%;
+  max-width: 96rem;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
@@ -66,16 +67,17 @@ h1 > span {
 }
 
 .cards {
-  display: flex;
-  max-width: 96rem;
-  justify-content: space-between;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   flex-wrap: wrap;
   gap: 3rem;
 }
 
 .card {
   height: 32.6rem;
-  max-width: 30rem;
+  max-width: 32rem;
   overflow: hidden;
   border-radius: 1.6rem;
   display: flex;
@@ -141,9 +143,10 @@ h1 > span {
   background-color: var(--purple500);
 }
 
-@media (max-width: 959px) {
-  .cards {
-    justify-content: center;
+@media (max-width: 966px) {
+  .container {
+    width: 90%;
+    margin: 1rem 5%;
   }
 }
 
